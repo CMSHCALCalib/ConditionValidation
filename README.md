@@ -40,4 +40,8 @@ These are simple root marcos.
     1) In order to compare calibrations in common you can use tool (RespCorrsXGains.C) that 
     produces product of Gains and RespCorrs. It produces txt file, which can be further processed
     by RespCorrs.C 
-    2) The script "redump.csh" re-dumping the input condtion. The procedure allow to reveal incorrect lines, characters, and conflicts input files giving various warnings. The other useful feature is that the re-dumped condition has the standard channel order, spacing.
+    2) The script "redump.csh" re-dumping the input condtion. The procedure allow to reveal incorrect lines, 
+    characters, and conflicts input files giving various warnings. The other useful feature is that 
+    the re-dumped condition has the standard channel order, spacing.
+    It should be used like: ./redump.csh RespCorrs HcalRespCorrs_testfile.txt
+    The redumped file will be: DumpHcalRespCorrs_Run1.txt
